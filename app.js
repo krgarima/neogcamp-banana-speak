@@ -2,9 +2,18 @@ var btnTranslate= document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input")
 var outputDiv = document.querySelector("#output");
 
-function clickEventHandler() 
+var serverURL= "https://lessonfourapi.garimakumar.repl.co/translate/yoda.json"
+
+function getTranslationURL(text) {
+    return serverURL+ "?"+ "text="+text
+}
+
+function clickHandler() 
 {
-    outputDiv.innerText = "shdshdk "+ txtInput.value;
+    var inputText = txtInput.value;
+fetch(getTranslationURL(inputText))
+.then(response => response.json())
+.then(json => console.log(json.contents.translated))
 };
 
-btnTranslate.addEventListener("click", clickEventHandler)
+btnTranslate.addEventListener("click", clickHandler)
