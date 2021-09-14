@@ -10,7 +10,7 @@
 
 .main {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     text-align: center;
     color: black;
 
@@ -23,7 +23,7 @@ body {
 
 /** conatiners **/
 .container {
-    padding: 1.0rem 1.5rem;
+    padding: 2.0rem 1.5rem;
 }
 
 .container-center {
@@ -35,4 +35,22 @@ hr {
     margin: 2rem 0rem;
 }
 
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color:#29036e;
+}
 
+.msg
+{
+    background-color: #ffe17d;
+    color:black;
+}
+
+.btn
+{
+    background-color: rgba(0, 0, 0, 0.247);
+    text-align: center;
+    margin: 1rem 0rem;
+}
