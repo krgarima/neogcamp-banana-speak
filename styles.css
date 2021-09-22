@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,500;1,100&family=Work+Sans:ital,wght@0,400;1,200&display=swap');
 
 :root {
-    --primary-color: #FCD34D;
+    --primary-color: #FDE68A;
     --emerald-green: #6EE7B7;
     --off-white: #E5E7EB;
     --grey:#848a94;
@@ -10,7 +10,7 @@
 
 .main {
     background-color: var(--primary-color);
-    padding: 4rem 1rem;
+    /* padding: 4rem 1rem; */
     text-align: center;
     color: black;
 
@@ -19,6 +19,7 @@
 body {
     font-family: 'Urbanist', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    font-style: italic;
 }
 
 /** conatiners **/
@@ -32,25 +33,33 @@ body {
 }
 
 hr {
-    margin: 2rem 0rem;
+    /* margin: 2rem 0rem; */
 }
 
 h1{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     color:#29036e;
+    font-style: normal;
 }
 
 .msg
 {
-    background-color: #ffe17d;
+    background-color: #faf3d8;
     color:black;
 }
 
 .btn
 {
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: white;
     text-align: center;
-    margin: 1rem 0rem;
+    margin: 1rem 1rem;
+    border-radius: 0.5rem;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(255, 250, 202);
 }
