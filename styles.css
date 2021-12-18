@@ -8,12 +8,18 @@
     --grey:#848a94;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .main {
     background-color: var(--primary-color);
     /* padding: 4rem 1rem; */
     text-align: center;
     color: black;
-
+    height: 78vh;
+    margin-top: 1rem; 
 }
 
 body {
@@ -25,15 +31,13 @@ body {
 /** conatiners **/
 .container {
     padding: 2.0rem 1.5rem;
+    /* margin-top: 5rem; */
 }
 
 .container-center {
     max-width: 600px;
     margin: auto;
-}
-
-hr {
-    /* margin: 2rem 0rem; */
+    margin-top: 1rem;
 }
 
 h1{
@@ -42,6 +46,7 @@ h1{
     font-weight: bolder;
     color:#29036e;
     font-style: normal;
+    margin: 0.8rem;
 }
 
 .msg
@@ -54,8 +59,11 @@ h1{
 {
     background-color: white;
     text-align: center;
-    margin: 1rem 1rem;
+    margin: 3rem 3rem;
     border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #89a6d8;
+    border: 2px solid white;
 }
 
 footer{
